@@ -158,13 +158,13 @@
                                 <input id="field-bc0e856940ceeb7759bb1c3091468981-0" class="form-input form-input-text required  " data-at="form-text" type="text" name="zip" data-describedby="form-validation-error-box-element-element-562" value="" title="Postcode" placeholder="Postcode" data-label-inside="Postcode" required="" aria-required="true">
 
                                 <input id="field-bc0e856940ceeb7759bb1c3091468981-1" class="form-input form-input-text required  " data-at="form-text" type="text" name="phone" data-describedby="form-validation-error-box-element-element-562" value="" title="Telephone Number" placeholder="Telephone Number" data-label-inside="Telephone Number" required="" aria-required="true">
+                                <input id="field-bc0e856940ceeb7759bb1c3091468981-1" class="form-input form-input-text required  " data-at="form-text" type="hidden" name="city" data-describedby="form-validation-error-box-element-element-562" value="" title="Telephone Number" placeholder="Telephone Number" data-label-inside="Telephone Number" required="" aria-required="true">
                                 <div class="form-checkable-field">
                                     <div class="form-block-radio">
                                         <input id="field-bc0e856940ceeb7759bb1c3091468981-2-0" class="form-multiple-input required" data-at="form-radio" type="radio" name="privacy_policy" data-describedby="form-validation-error-box-element-element-562" value="By submitting this form, I accept the Privacy Policy and the use of the information entered in the context of my request for information." required="" aria-required="false">
                                         <label class="form-label form-multiple-label form-radio-label" for="field-bc0e856940ceeb7759bb1c3091468981-2-0" data-at="form-radio-label">By submitting this form, I accept the Privacy Policy and the use of the information entered in the context of my request for information.</label>
                                     </div>
                                 </div>
-                                <input type="hidden" name="lpsSubmissionConfig" value="<?=$config['token']?>" data-at="form-hidden-input">
                                 <input type="hidden" class="configuration" name="redirect" value="<?=$config['domain']?>/thank-you" data-at="form-hidden-input">
                                 <div class="item-absolute form-btn-geometry">
                                     <button class="btn form-btn item-block btn-shadow " id="form-btn-step-2" data-at="form-button">
