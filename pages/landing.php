@@ -29,7 +29,6 @@
 
     <link rel="stylesheet" media="screen" href="assets/css/main.css">
     <script src="assets/js/old.js"></script>
-    <script src="assets/js/app.js"></script>
     <link rel="stylesheet" media="screen" href="assets/css/custom.css">
 
     <script id="ip-config" type="application/json">
@@ -134,21 +133,21 @@
                     <div class="multistep-form" action-xhr="https://api.reflexquotation.com/leads/lead" data-id="element-562" data-thankyou="VGhhbmsgWW91IQ==" data-at="form-multistep">
                         <div class="widget item-absolute  " id="element-558">
                             <form novalidate="" class="form multistep-form-step " method="post" data-id="element-558" data-at="form" data-step-id="0">
-                                <input id="field-dac94585db163475305e88402583e526-0" class="form-input form-input-text required  " data-at="form-text" type="text" name="Last Name" data-describedby="form-validation-error-box-element-element-562" value="" title="Last Name" placeholder="Last Name" data-label-inside="Last Name" required="" aria-required="true">
+                                <input id="field-dac94585db163475305e88402583e526-0" class="form-input form-input-text required  " data-at="form-text" type="text" name="last_name" data-describedby="form-validation-error-box-element-element-562" value="" title="Last Name" placeholder="Last Name" data-label-inside="Last Name" required="" aria-required="true">
 
-                                <input id="field-dac94585db163475305e88402583e526-1" class="form-input form-input-text required  " data-at="form-text" type="text" name="Name" data-describedby="form-validation-error-box-element-element-562" value="" title="Name" placeholder="Name" data-label-inside="Name" required="" aria-required="true">
+                                <input id="field-dac94585db163475305e88402583e526-1" class="form-input form-input-text required  " data-at="form-text" type="text" name="first_name" data-describedby="form-validation-error-box-element-element-562" value="" title="Name" placeholder="Name" data-label-inside="Name" required="" aria-required="true">
 
-                                <input id="field-dac94585db163475305e88402583e526-2" class="form-input form-input-text required  " type="email" name="Email" data-describedby="form-validation-error-box-element-element-562" value="" title="Email" data-label-inside="Email" data-at="form-email" placeholder="Email" required="" aria-required="true">
+                                <input id="field-dac94585db163475305e88402583e526-2" class="form-input form-input-text required  " type="email" name="email" data-describedby="form-validation-error-box-element-element-562" value="" title="Email" data-label-inside="Email" data-at="form-email" placeholder="Email" required="" aria-required="true">
 
-                                <input id="field-dac94585db163475305e88402583e526-3" class="form-input form-input-text required  " data-at="form-text" type="text" name="Address" data-describedby="form-validation-error-box-element-element-562" value="" title="Address" placeholder="Address" data-label-inside="Address" required="" aria-required="true">
+                                <input id="field-dac94585db163475305e88402583e526-3" class="form-input form-input-text required  " data-at="form-text" type="text" name="address" data-describedby="form-validation-error-box-element-element-562" value="" title="Address" placeholder="Address" data-label-inside="Address" required="" aria-required="true">
 
-                                <select id="field-dac94585db163475305e88402583e526-4" class="form-input form-input-text required  " data-at="form-text" name="Work Required" data-describedby="form-validation-error-box-element-element-562" value="" title="Address" placeholder="Address" data-label-inside="Address" required="" aria-required="true">
+                                <select id="field-dac94585db163475305e88402583e526-4" class="form-input form-input-text required  " data-at="form-text" name="WorkType" data-describedby="form-validation-error-box-element-element-562" value="" title="Address" placeholder="Address" data-label-inside="Address" required="" aria-required="true">
                                     <option value="gas_boiler">Gas Boiler</option>
                                     <option value="gas_central_heating">Gas Central Heating</option>
                                 </select>
-                                <?php generate_inputs(["vertical_id" => 54, "offer_id" => 25785]); ?>
+                                <?php generate_inputs(["vertical_id" => 88, "offer_id" => 25785]); ?>
                                 <div class="item-absolute form-btn-geometry">
-                                    <button class="btn form-btn item-block btn-shadow " data-at="form-button">
+                                    <button class="btn form-btn item-block btn-shadow " id="form-btn-step-1" data-at="form-button">
                                         <?=getDictionary('buttons.form')?>
                                     </button>
                                 </div>
@@ -156,20 +155,20 @@
                         </div>
                         <div class="widget item-absolute hidden " id="element-560">
                             <form novalidate="" class="form multistep-form-step multistep-last-step" method="post" data-id="element-560" data-at="form" data-step-id="1">
-                                <input id="field-bc0e856940ceeb7759bb1c3091468981-0" class="form-input form-input-text required  " data-at="form-text" type="text" name="Postcode" data-describedby="form-validation-error-box-element-element-562" value="" title="Postcode" placeholder="Postcode" data-label-inside="Postcode" required="" aria-required="true">
+                                <input id="field-bc0e856940ceeb7759bb1c3091468981-0" class="form-input form-input-text required  " data-at="form-text" type="text" name="zip" data-describedby="form-validation-error-box-element-element-562" value="" title="Postcode" placeholder="Postcode" data-label-inside="Postcode" required="" aria-required="true">
 
-                                <input id="field-bc0e856940ceeb7759bb1c3091468981-1" class="form-input form-input-text required  " data-at="form-text" type="text" name="Telephone Number" data-describedby="form-validation-error-box-element-element-562" value="" title="Telephone Number" placeholder="Telephone Number" data-label-inside="Telephone Number" required="" aria-required="true">
+                                <input id="field-bc0e856940ceeb7759bb1c3091468981-1" class="form-input form-input-text required  " data-at="form-text" type="text" name="phone" data-describedby="form-validation-error-box-element-element-562" value="" title="Telephone Number" placeholder="Telephone Number" data-label-inside="Telephone Number" required="" aria-required="true">
                                 <div class="form-checkable-field">
                                     <div class="form-block-radio">
-                                        <input id="field-bc0e856940ceeb7759bb1c3091468981-2-0" class="form-multiple-input required" data-at="form-radio" type="radio" name="Privacy Policy" data-describedby="form-validation-error-box-element-element-562" value="By submitting this form, I accept the Privacy Policy and the use of the information entered in the context of my request for information." required="" aria-required="false">
+                                        <input id="field-bc0e856940ceeb7759bb1c3091468981-2-0" class="form-multiple-input required" data-at="form-radio" type="radio" name="privacy_policy" data-describedby="form-validation-error-box-element-element-562" value="By submitting this form, I accept the Privacy Policy and the use of the information entered in the context of my request for information." required="" aria-required="false">
                                         <label class="form-label form-multiple-label form-radio-label" for="field-bc0e856940ceeb7759bb1c3091468981-2-0" data-at="form-radio-label">By submitting this form, I accept the Privacy Policy and the use of the information entered in the context of my request for information.</label>
                                     </div>
                                 </div>
                                 <input type="hidden" name="lpsSubmissionConfig" value="<?=$config['token']?>" data-at="form-hidden-input">
                                 <input type="hidden" class="configuration" name="redirect" value="<?=$config['domain']?>/thank-you" data-at="form-hidden-input">
                                 <div class="item-absolute form-btn-geometry">
-                                    <button class="btn form-btn item-block btn-shadow " data-at="form-button">
-                                        CALCULATE SAVINGS
+                                    <button class="btn form-btn item-block btn-shadow " id="form-btn-step-2" data-at="form-button">
+                                        <?=getDictionary('buttons.form')?>
                                     </button>
                                 </div>
                             </form>
@@ -498,6 +497,7 @@
 <script src="assets/js/lib/cradle.js"></script>
 <script src="assets/js/lib/lazyimage.js"></script>
 <script src="assets/js/lib/form.js"></script>
+<script src="assets/js/app.js"></script>
 
 <div>
     <div class="sound">
